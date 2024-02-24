@@ -1,0 +1,38 @@
+.word-list-detail {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    overflow: scroll;
+  }
+  .h1-list {
+    margin-top: 80px;
+    font-size: 40px;
+    color: #6066D0;
+  }
+  .word-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    position: relative;
+    z-index: -1;
+    align-items: center;
+    justify-content: center;
+  }
+  .word-list-table th {
+    /* background: rgba(0, 0, 0, 5);; */
+    background-color: #6066D0;
+    color: #B1B9D8;
+    padding: 12px;
+  }
+  .word-list-table tbody{
+    height: 100vh;
+    overflow: scroll ;
+  }
+  .word-list-table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    color: #B1B9D8;
+
+  }

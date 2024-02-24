@@ -1,0 +1,40 @@
+.game-container {
+    padding-top: 250px; 
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 800px; 
+  }
+  
+  .words-container, .translations-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+  }
+  .word-button, .translation-button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #6066D0; 
+    color: white;
+    cursor: pointer;
+  }
+  
+  .selected {
+    background-color: #cccccc; 
+  }
+  
+  @keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    20%, 40%, 60%, 80% { transform: translateX(-10px); }
+    30%, 50%, 70%, 90% { transform: translateX(10px); }
+  }
+  
+  .shake {
+    animation: shake 0.5s;
+  }
+  .correct {
+    background-color: #28a745; 
+  }
+  

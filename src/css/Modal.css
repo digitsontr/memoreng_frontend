@@ -1,0 +1,100 @@
+.mModal {
+  background-color: #e5e5e5;
+  border-radius: 5px;
+  min-height: 400px;
+}
+.mModal .mModal-title {
+  font-size: 12px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 200;
+  color: #535050;
+}
+.mModal-input {
+  padding: 0px 50px;
+}
+.mModal input:not([type=checkbox]) {
+  width: 100%;
+  height: 40px;
+  background-color: #fff;
+  border: solid 2px #f4f4f4;
+  padding: 0 10px;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  border-radius: 3px;
+}
+
+.mModal input[type=checkbox] {
+    box-shadow: none;
+    border: none;
+  }
+  
+
+.mModal input:focus {
+    outline: none;
+    border: solid 3px #ededed;
+  }
+
+  .mModal .registerLink{
+    text-align: center;
+    line-height: 28px;
+    text-decoration: none;
+    color: #535050;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .mModal .registerLink:hover{
+    color: #f4f4f4;
+    cursor: pointer;
+  }
+  
+  
+.mModal-btn-login {
+  width: 100% !important;
+  text-decoration: none;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #fca82f;
+  box-shadow: 0px 2.5px 5px #93918e;
+  cursor: pointer;
+  border: none;
+  justify-content: center;
+  text-align: center;
+}
+
+.mModal-btn-login:active {
+    background-color: #FCA82F;
+    box-shadow: 0 3px #e1dedb;
+    transform: translateY(1px);
+  }
+.mModal-divider {
+  background-color: #fff;
+  border: none;
+  height: 3px;
+  border-radius: 4px;
+}
+
+
+.checkBoxLabel{
+    font-size: 9px;
+    text-align: left !important;
+}
+
+.forgetPassword{
+  text-align: left !important;
+  line-height: 28px;
+  text-decoration: none;
+  color: #535050;
+  font-size: 13px;
+  font-weight: 500;
+}
+.forgetPassword:hover{
+  color: #f4f4f4;
+  cursor: pointer;
+}

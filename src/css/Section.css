@@ -1,0 +1,100 @@
+.game-section{
+    height:100vh;
+    width: 100%;
+}
+.game-section-row{
+    height: 50vh;
+}
+.game-item{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.multiple-choose{
+    background: #e5e5e5;
+    /*background: linear-gradient(to top,#4f78ee,#EDEDED);*/
+} 
+.multiple-choose a{
+    font-weight: 600;
+    font-size: 20px;
+    color: #6066D0;
+    text-decoration: none; 
+}
+.fill-blank{
+    background: #e5e5e5;
+    /* background: linear-gradient(to top,#6dddb8,#EDEDED) */
+} 
+.fill-blank a{
+    font-weight: 600;
+    font-size: 20px;
+    color: #6066D0;
+    text-decoration: none;
+}
+.wordle{
+    font-weight: 600;
+    font-size: 20px;
+    color: #6066D0;
+    background: #e5e5e5;
+    /* background: linear-gradient(to top,#ed798b,#EDEDED) */
+}
+.wordle a{
+    font-weight: 600;
+    font-size: 20px;
+    color: #6066D0;
+    text-decoration: none;
+}
+.word-match{
+    font-weight: 600;
+    font-size: 20px;
+    color: #6066D0;
+    background: #e5e5e5;
+    /* background: linear-gradient(to top,#fdd305,#EDEDED ) */
+}
+.word-match a{
+    font-weight: 600;
+    font-size: 20px;
+    color: #6066D0;
+    text-decoration: none;
+}
+.word-list{
+    font-weight: 600;
+    font-size: 20px;
+    color: #6066D0;
+    background: #e5e5e5;
+    /* background: linear-gradient(to top,#a58dd1,#EDEDED) */
+}
+.word-list a{
+    font-weight: 600;
+    font-size: 20px;
+    color: #6066D0;
+    text-decoration: none;
+}
+.level-section{
+    height:calc(100vh - 60px);
+    width: 100%;
+}
+.level-section-row{
+    height: calc(50vh - 30px);
+}
+.level-item{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.multiple-icon{
+    height: 310px;
+}
+.wordle-icon{
+    height: 200px;
+}
+.blank-icon{
+    height: 230px;
+}
+.list-icon{
+    height: 280px;
+}
+.match-icon{
+    height: 250px;
+}

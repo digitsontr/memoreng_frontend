@@ -1,0 +1,92 @@
+.container-fill {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  .h1-fill {
+    margin-top: 0;
+    font-size: 30px;
+    color: #B1B9D8;
+  }
+  .game-container-fill {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .word-fill {
+    display: flex;
+    flex-direction: column;
+    background-color: #6066D0;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    height: 70px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+  }
+  .input-fill {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 25px;
+    margin: 10px;
+    min-width: 200px;
+    text-align: center;
+    margin-right: 10px;
+    color: #B1B9D8;
+  }
+  .button-fill {
+    background-color: white;
+    color: #6066D0;
+    padding: 15px;
+    border: 2px solid #6066D0;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    height: 60px;
+    width: 50vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button-fill:hover {
+    transform: scale(1.05);
+    background-color: #bebebf;
+    color: white;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .container-fill {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .game-container-fill {
+        flex-direction: column;
+        align-items: center;
+    }
+    .word-fill {
+        font-size: 25px;
+    }
+    .input-fill {
+        width: 80%;
+    }
+    .h1-fill {
+      margin-top: 0px;
+      font-size: 30px;
+      color: #B1B9D8;
+    }
+  }
